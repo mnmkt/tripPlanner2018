@@ -1,19 +1,28 @@
 {
-  "name": "tripplanner",
+  "name": "trip-planner",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w"
+    "start:dev": "webpack -w & nodemon server/app.js",
+    "start": "npm run start:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14"
+    "webpack": "^3.6.0"
   },
   "dependencies": {
-    "mapbox-gl": "^0.45.0-beta.1"
-  }
+    "mapbox-gl": "^0.40.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnmkt/tripPlanner2018.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnmkt/tripPlanner2018/issues"
+  },
+  "homepage": "https://github.com/mnmkt/tripPlanner2018#readme",
+  "description": ""
 }
