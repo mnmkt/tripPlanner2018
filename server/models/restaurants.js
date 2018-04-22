@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
-const db = requrie("./_db");
+const db = require("./_db");
 
-const Restaurants = db.define('restaurant', {
+const Restaurant = db.define('restaurant', {
   name: Sequelize.STRING,
   price: {
     type: Sequelize.INTEGER,

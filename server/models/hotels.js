@@ -1,8 +1,8 @@
 const Sequelize = require("sequelize");
-const db = requrie("./_db");
+const db = require("./_db");
 
 const Hotel = db.define('hotel', {
-  name: Sequzelize.STRING,
+  name: Sequelize.STRING,
   num_stars: {
     type: Sequelize.FLOAT,
     validate : { min:1, max: 5}

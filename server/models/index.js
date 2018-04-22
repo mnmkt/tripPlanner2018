@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
-const db = requrie("./_db");
+const db = require("./_db");
 
-const Place = require('./place');
+const Place = require('./places');
 const Restaurant = require('./restaurants');
 const Activity = require('./activities');
 const Hotel = require('./hotels');

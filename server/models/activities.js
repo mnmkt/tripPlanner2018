@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const db = requrie("./_db");
+const db = require("./_db");
 
 const Activity = db.define('activity',  {
   name: Sequelize.STRING,
